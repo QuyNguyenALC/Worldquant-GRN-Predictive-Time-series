@@ -6,3 +6,5 @@ git clone https://github.com/QuyNguyenALC/Worldquant-GRN-Predictive-Time-series.
 docker build -t docker-model -f Dockerfile .
 4. Run the reference.py to predict:
 docker run docker-model python3 inference.py
+Because the size of datafile, I've upload the sample of data. You can download full data of this project prior to replace datafolder here:
+https://drive.google.com/drive/folders/1ucFfOvkbI8OrBxL2zuM7XMSJok0KA4_E?usp=sharing
